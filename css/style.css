@@ -1,0 +1,318 @@
+*{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  
+}
+body{
+height: 1000px;
+}
+
+header{
+    position:sticky;
+    margin-bottom: 300px;
+    width: 1350px;
+    background-color: white;
+    height:70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+main{
+    scroll-behavior: smooth;
+    max-width: 1440px;
+}
+
+.logo{
+    padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+ a{
+    color: black;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+    text-decoration:none;
+}
+
+
+.logo{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.step1{
+    display: flex ;
+    gap: 20px;
+    margin: 50px;
+    
+}
+.seamless{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+h6{
+    color: rgba(46, 42, 42, 0.74);
+}
+.hero>img{
+    height: 500px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+.start{
+    height:60px;
+    width:700px;
+    color: rgb(23, 199, 223);
+    border: 1px solid rgb(23, 199, 223);
+    border-radius: 10px;
+
+}
+.find{
+    height:60px;
+    width:700px;
+    color: rgb(23, 199, 223);
+    border: 1px solid rgb(23, 199, 223);
+    border-radius: 10px;
+}
+.start:hover{
+    background-color: rgb(23, 199, 223);
+    color: white;
+    transition: all 1s;
+}
+.find:hover{
+    background-color: rgb(23, 199, 223);
+    color: white;
+    transition: all 1s;
+
+}
+h6{
+    padding: 20px;
+}
+.forstep2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.growing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.threebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: spa;
+    gap: 100px;
+}
+.firstbox{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 1px rgb(209, 181, 129)}
+
+.secondbox{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 1px rgb(209, 181, 129)
+}
+.thirdbox{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 1px rgb(209, 181, 129);
+    
+}
+.firstbox>img{
+    height: 200px;
+    width: 298px;
+}
+.secondbox>img{
+    margin-top: 38px;
+    height: 200px;
+    width: 298px;
+}
+.thirdbox>img{
+    margin-top: 18px;
+    height: 200px;
+    width: 298px;
+}
+.forstep3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 70px;
+    height: 700px;
+    justify-content: space-evenly;
+}
+.one{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    line-height: 30px;
+    text-transform: capitalize;
+   
+ 
+    
+
+
+}
+.one>img{
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+
+.two{
+    display: flex;
+    gap: 60px;
+    padding-left: 100px;
+
+    
+
+}
+.twotext{
+   margin-left: 50px;
+   margin-top: 50px;
+   line-height: 50px;
+   text-transform: capitalize
+
+}
+
+ 
+
+.two>img{
+    height: 300px;
+}
+.forstep4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 50px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    background-color: rgb(23, 199, 223);
+
+}
+.loop{
+    text-align: left;
+
+}
+.loop>h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.loopemail>input{
+    height: 30px;
+}
+.loopemail>button{
+    height: 30px;
+    background-color:rgb(206, 25, 182);
+    color: white;
+ }
+
+.forstep5{
+    margin-top: 50px;
+}
+.forshopowners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.forshopowners>img{
+    height: 300px;
+}
+.forshoppers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.forshoppers>img{
+    height: 300px;
+}
+h5{ 
+   
+    border: 1px solid  rgb(23, 199, 223);
+    line-height: 20px;
+    height: 70px;
+    padding-left: 10px;
+    border-radius: 7px;
+
+}
+.textforshopowners{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    
+}
+.textforshopowners>h1{
+    color:rgb(23, 199, 223);
+    text-transform: capitalize;
+    padding-right: 50px;
+
+}
+.textforshoppers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.textforshoppers>h1{
+    color:rgb(23, 199, 223);
+    text-transform: capitalize;
+    padding-right: 50px;
+
+
+
+}
+.simple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(23, 160, 223);
+    height: 400px;
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+    gap: 20px;
+}
+.company>a{
+    color: white;
+}
+
+
